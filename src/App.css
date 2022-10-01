@@ -1,0 +1,29 @@
+.absolute{
+    position: absolute;
+}
+.centered{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cursor{
+   color: white;
+}
+.texture-selector{
+    transform: scale(5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.texture-selector img.active{
+   border: 2px solid red;
+}
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left:0 ;
+    top: 0;
+
+}
